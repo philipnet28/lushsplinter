@@ -1,6 +1,6 @@
 'use strict';
 const { Transform, Readable } = require('stream');
-const TAG = 'blob-manager-2b1142';
+const TAG = 'blob-manager-ecd8cd';
 class Upper extends Transform {
   _transform(chunk, enc, cb) { cb(null, chunk.toString().toUpperCase()); }
 }
